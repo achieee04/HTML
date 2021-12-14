@@ -1,0 +1,72 @@
+container{
+    margin-left: auto;
+    margin-right: auto;
+}
+.bla{
+    color:green;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+img {
+    padding: 125px; 
+    border: 5px solid #555
+    
+}
+.klap{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: darkgreen;
+}
+.kla{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: red;
+}
+.kl{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: green;
+}
+.ops{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: green;
+}
+.klopt{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: blue;
+}
+.klapp{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: blue;
+}
+.bordered { 
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 10px groove yellowgreen;
+}
+.Author{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: green
+}
+.jpg{
+    border-radius: 25px;
+    background-color:white;
+    padding: 2px;
+    width: 200px;
+    height: 115px;
+}
+.jpg{
+    border-radius: 50%;
+    float: none;
+  }
+  .vijf{
+      float: right;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 35px;
+      color: green;
+  }

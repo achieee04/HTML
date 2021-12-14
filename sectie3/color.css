@@ -1,0 +1,79 @@
+.container{
+   display: flex;
+   justify-content: center;
+    flex-flow: wrap row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.Green{
+    height: 300px;
+    width: 500px;
+    background-color: green;
+    
+}
+
+.Red{
+    height: 300px;
+    width: 500px;
+    background-color: red;
+}
+
+.Blue{
+    height: 300px;
+    width: 500px;
+    background-color: blue;
+}
+
+.Yellow{
+    height: 300px;
+    width: 500px;
+    background-color: Yellow;
+}
+
+.Black{
+    height: 300px;
+    width: 500px;
+    background-color: black;
+}
+
+.Purple{
+    height: 300px;
+    width: 500px;
+    background-color: purple;
+}
+
+.Yellow{
+    height: 300px;
+    width: 500px;
+    background-color: Yellow;
+}
+
+.Orange{
+    height: 300px;
+    width: 500px;
+    background-color: Orange;
+}
+
+.Pink{
+    height: 300px;
+    width: 500px;
+    background-color: pink;
+}
+
+
+.Grey{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    
+    height: 300px;
+    width: 500px;
+    background-color: gray;
+}
+
+
+.White{
+    height: 300px;
+    width: 500px;
+    background-color: sienna;
+}
