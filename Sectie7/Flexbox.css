@@ -1,0 +1,16 @@
+.flex-container{
+    display: flex;
+    flex-direction: row row-reverse column column-reverse;
+    flex-wrap: nowrap wrap wrap-reverse;
+    flex-flow: flex-direction flex-wrap;
+    justify-content: flex-start flex-end center space-between space-around space-evenly;
+    align-items: stretch flex-start flex-end center baseline;
+    align-content: normal flex-start flex-end center space-between space-around space-evenly stretch;
+    order: 0;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis:auto;
+    flex: flex-grow flex-shrink flex-basis (default 0 1 auto);
+    align-self: auto flex-start flex-end center baseline stretch;
+
+}

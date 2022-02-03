@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylecheet" href="FlexboxNAV.css"
+    <title></title>
+</head>
+<body>
+    
+    <nav>
+        Gemaakt door Ahmed
+    </nav>
+    
+   
+    
+    <ul class="topnav">
+      <li><a class="active" href="#">Home</a></li>
+      <li><a href="#">Onze diensten</a></li>
+      <li><a href="#">Ons team</a></li>
+      <li class="right" ><a href="#">Contact</a></li>
+    </ul>
+    <style>
+        
+      ul.topnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        font-family: arial;
+        text-align: left;
+        width: 100%;
+        position: sticky;
+        top: 0;
+      }
+      ul.topnav li {float: left;}
+      ul.topnav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        float: left;
+        font-size: 17px;
+        border-right: 1px solid #bbb;
+      }
+      ul.topnav li a:hover:not(.active) {
+          background-color: #ddd;
+          color: black;
+      }
+      ul.topnav li a.active {
+          background-color: black;
+      }
+      ul.topnav li.right {
+          float: right;
+      }
+      @media screen and (max-width: 720px) {
+        ul.topnav li{
+            width: 100%;
+        }
+        ul.topnav a{
+            width: 100%;
+        }
+      }
+    </style>
+    <img src="tiggr.jpg" alt="Tijger">
+    <img src="tiggr.jpg" alt="Tijger">
+    <br>
+    <img src="tiggr.jpg" alt="Tijger">
+    <img src="tiggr.jpg" alt="Tijger">
+
+    
+</body>
+</html>
